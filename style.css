@@ -1,0 +1,170 @@
+
+body {
+	background-color: #f2eae4;
+	padding: 20px;
+}
+
+.section {
+	background: #ffffff;
+	width: 350px;
+	height: 620px;
+	border-radius: 3%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	
+
+}
+.img-section-desktop{
+	display: none;
+}
+
+.img-section {
+	display: flex;
+	position: relative;
+	
+}
+
+.image-product {
+	height: 100%;
+	width: 100%;
+	border-radius: 3% 3% 0 0;
+
+}
+
+.description-section {
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	height: 55%;
+
+
+}
+
+h1 {
+	order: 2;
+	font-weight: bold; 
+	font-family: 'Prata', serif;
+
+}
+
+h2 {
+	order: 1;
+	margin: 0;
+	font-size: 13px;
+	letter-spacing: 5px;
+	font-family: 'Montserrat', sans-serif;
+	
+
+}
+
+
+.description-perfume {
+	order: 3;
+	font-size: 15.4px;
+	font-family: 'Montserrat', sans-serif;
+	color: #636363;
+	margin: 0;
+
+}
+
+
+
+.div-price {
+	order: 4;
+	padding: 5px;
+	color: #636363;
+}
+
+a {
+	color: #3d8168;
+	font-family: 'Prata', serif;
+	font-size: 1.8em;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+.buy-section {
+	order: 5;
+	background-color: #3d8168;
+	color: white ;
+	padding: 8px;
+	border: transparent;
+	border-radius: 10px;
+	font-family: 'Prata', serif;
+}
+
+i {
+	padding: 8px;
+
+}
+
+
+
+
+
+
+.buy-section:hover {
+	background-color: #003300;
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 420px) {
+	.section {
+	background: #ffffff;
+	width: 600px;
+	height: 450px;
+
+}	
+.img-section {
+	display: none;
+}
+
+.img-section-desktop {
+	display: flex;
+	position: absolute;
+	width: 300px;
+	height: 450px;
+	
+
+}
+.image-product-desktop {
+	height: 100%;
+	width: 100%;
+	border-radius: 3% 0 0 3%;
+	
+}
+
+.description-section {
+	margin-left: 50%;
+	height: 100%;
+} 
+
+h1 {
+	padding-right: 50px;
+
+}
+
+.description-section {
+	padding: 10px 25px;
+
+}
+
+.buy-section {
+	margin-bottom: 25px;
+}
+
+}
+
+
